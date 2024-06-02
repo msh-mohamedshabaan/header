@@ -1,0 +1,84 @@
+/*start rolls */
+:root {
+    --color-blue1 :#5a108a; 
+    --color-blue2 :#a435f0; 
+    --text-color-purple:#5624d0;; 
+    --color-gray : #d5d0d039 ;
+    --color-gray-text : #6a6f73 ;
+
+    --font-stack-text: 'Udemy Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    --font-stack-heading-serif: SuisseWorks, Georgia, Times, 'Times New Roman', serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul li {
+    list-style: none;
+}
+
+.clearfix {
+    clear: both;
+}
+body {
+    font-family: "josefin sans", sans-serif;
+}
+
+/* start header */
+header {
+    background-color: black;
+    padding: 10px 0;
+    color: white;
+}
+header button {
+    padding: 7px 12px ;
+    border: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+header button:hover {
+    background-color: #ffffffe0;
+}
+/* end header */
+/* :start nav   */
+nav {
+  z-index: 1;
+  height: 100px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .08), 0 4px 12px rgba(0, 0, 0, .08);
+}
+
+nav .nav-item input {
+  padding: 5px 200px;
+}
+nav .navbar-collapse .nav-items {
+  justify-content: space-between;
+}
+
+nav .nav-item button{
+  border: 1px solid black;
+  background-color: transparent;
+  padding:5px 10px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+nav .nav-item button:hover {
+  background-color: rgba(0, 0, 0, 0.175);
+}
+nav .nav-item input {
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-left: 5px;
+}
+.dropdown-hover .dropdown-menu-hover {
+  
+}
+/* end nav  */
+
